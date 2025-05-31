@@ -9,7 +9,7 @@ load_dotenv()
 
 
 # Gemini API Key
-GEMINI_API_KEY  st.secrets["JEUN_API_KEY"]
+GEMINI_API_KEY=  st.secrets["JEUN_API_KEY"]
 
 # Gemini API endpoint
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
